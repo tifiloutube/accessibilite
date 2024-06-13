@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Découvrez notre blog dédié à l'accessibilité web. Lisez des articles, des conseils et des guides pour rendre votre site web plus accessible et inclusif pour tous.">
+  <title>Connexion</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="login-container">
+  <form action="home.html" method="post" class="login-form" aria-labelledby="login-form-title">
+    <img src="logo.png" alt="Logo de l'entreprise" class="login-logo">
+    <h1 id="login-form-title">Formulaire de connexion</h1>
+    <div class="form-group">
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email" required autofocus autocomplete="username">
+    </div>
+    <div class="form-group">
+      <label for="password">Mot de passe :</label>
+      <input type="password" id="password" name="password" minlength="12" required autocomplete="current-password">
+    </div>
+    <button type="submit" class="login-button">Se connecter</button>
+  </form>
+</main>
+</body>
+</html>

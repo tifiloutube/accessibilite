@@ -1,0 +1,78 @@
+/* Partie page articles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tfoot td {
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+.comment {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-left: 4px solid #007bff;
+}
+
+header, footer {
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+a {
+    color: black;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    list-style: none;
+}
+
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+footer nav ul li {
+    display: inline;
+}
+
+footer nav ul li a {
+    color: white;
+}
